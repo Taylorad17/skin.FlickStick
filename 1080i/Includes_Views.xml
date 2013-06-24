@@ -524,6 +524,7 @@
     </variable>
     
     <variable name="ListItem.Title">
+        <value condition="!IsEmpty(ListItem.Title) + [ListItem.IsPlaying | [StringCompare(ListItem.Title,VideoPlayer.Title) + StringCompare(ListItem.ChannelNumber,VideoPlayer.ChannelNumber) + StringCompare(ListItem.EndTime,VideoPlayer.EndTime)]]">[COLOR=SelectedGreen]$INFO[ListItem.Title][/COLOR]</value>
         <value condition="!IsEmpty(ListItem.Title)">$INFO[ListItem.Title]</value>
         <value>$INFO[ListItem.Label]</value>
     </variable>
@@ -566,6 +567,11 @@
     <variable name="ListItem.E">
         <value condition="!IntegerGreaterThan(ListItem.Episode,9)">$INFO[ListItem.Episode,x0,]</value>
         <value>$INFO[ListItem.Episode,x,]</value>
+    </variable>
+    
+    <variable name="ListItem.EpgInfo">
+        <value condition="ListItem.IsPlaying | [StringCompare(ListItem.Title,VideoPlayer.Title) + StringCompare(ListItem.ChannelNumber,VideoPlayer.ChannelNumber) + StringCompare(ListItem.EndTime,VideoPlayer.EndTime)]">[COLOR=SelectedGreen]$INFO[ListItem.StartTime,, - ]$INFO[ListItem.EndTime]$INFO[ListItem.Genre, • ,][/COLOR]</value>
+        <value>$INFO[ListItem.StartTime,, - ]$INFO[ListItem.EndTime]$INFO[ListItem.Genre, • ,]</value>
     </variable>
     
     <variable name="Colordiffuse.Color">
