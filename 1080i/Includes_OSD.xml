@@ -77,7 +77,8 @@
     <include name="OSDWeatherClockPVR">
     	<control type="group">
 			<visible>!Window.IsActive(videoosd) + !Window.IsActive(musicosd)</visible>
-			   <control type="label">
+			<animation effect="slide" end="70" time="300" tween="sine" easing="inout" condition="!Weather.IsFetched | [stringcompare(Weather.FanartCode,na) + substring(Weather.Conditions,/)]">Conditional</animation>
+			<control type="label">
 			    <description>Clock</description>
 			    <posx>1704</posx>
 			    <posy>170</posy>
