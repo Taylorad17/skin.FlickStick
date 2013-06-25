@@ -1090,7 +1090,7 @@
     				        <posy>0</posy>
     				        <width>375</width>
     				        <height>80</height>
-    				        <font>Font-Condensed-S34</font>
+    				        <font>Font-Condensed-S49</font>
     				        <align>right</align>
     				        <label>$INFO[ListItem.ChannelNumber]</label>
     				        <textcolor>22FFFFFF</textcolor>
@@ -1153,7 +1153,7 @@
     					    <posy>0</posy>
     					    <width>375</width>
     					    <height>80</height>
-    					    <font>Font-Condensed-S34</font>
+    					    <font>Font-Condensed-S49</font>
     					    <align>right</align>
     					    <label>$INFO[ListItem.ChannelNumber]</label>
     					    <textcolor>22FFFFFF</textcolor>
