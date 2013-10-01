@@ -488,7 +488,7 @@
     </variable>
     
     <variable name="ListItem.Label">
-        <value condition="ListItem.IsPlaying">[COLOR=SelectedGreen]$INFO[ListItem.Label][/COLOR]</value>
+        <value condition="ListItem.IsPlaying | [StringCompare(ListItem.Title,VideoPlayer.Title) + StringCompare(ListItem.ChannelNumber,VideoPlayer.ChannelNumber) + StringCompare(ListItem.EndTime,VideoPlayer.EndTime)]">[COLOR=SelectedGreen]$INFO[ListItem.Label][/COLOR]</value>
         <value>$INFO[ListItem.Label]</value>
     </variable>
     
