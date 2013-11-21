@@ -114,9 +114,9 @@
                     <textoffsetx>35</textoffsetx>
                     <sliderwidth>300</sliderwidth>
                     <sliderheight>35</sliderheight>
-                    <texturesliderbar border="22,1,22,1">buttons/OSD/slider_back.png</texturesliderbar>
-                    <textureslidernib>buttons/OSD/orb_nofo.png</textureslidernib>
-                    <textureslidernibfocus>buttons/OSD/orb_fo.png</textureslidernibfocus>
+                    <texturesliderbar border="22,1,22,1">buttons/osd/slider_back.png</texturesliderbar>
+                    <textureslidernib>buttons/osd/orb_nofo.png</textureslidernib>
+                    <textureslidernibfocus>buttons/osd/orb_fo.png</textureslidernibfocus>
                 </control>
             </control>
         </control>
