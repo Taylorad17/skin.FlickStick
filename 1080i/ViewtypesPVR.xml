@@ -1032,6 +1032,7 @@
     				<onright>9001</onright>
     				<onup>10</onup>
     				<ondown>10</ondown>
+					<onback>9001</onback>    				
     				<rulerlayout height="40" width="40">
     					<control type="label" id="2">
     						<posx>15</posx>
