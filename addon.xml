@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.xperience1080x" version="2.3.0-Beta" name="Xperience1080x" provider-name="`Black">
+<addon id="skin.xperience1080x" version="3.0.0-alpha1" name="Xperience1080x" provider-name="`Black">
 	<requires>
-		<import addon="xbmc.gui" version="5.0.0" />
+		<import addon="xbmc.gui" version="5.2.0" />
 		<import addon="service.skin.widgets" version="0.0.25" />
 		<import addon="script.artwork.downloader" version="12.0.15" />
 		<import addon="script.tv.show.next.aired" version="5.0.7" />
