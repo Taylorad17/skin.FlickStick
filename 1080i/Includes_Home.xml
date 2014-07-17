@@ -739,7 +739,7 @@
                     <onright>AlarmClock(HomeTileMoveTwo,Control.Move(5022,1),00:07,silent,loop)</onright>
                     <onright>Control.Move(20,1)</onright>
                     <onright>525</onright>
-                    <onclick>ActivateWindow(pvr)</onclick>
+                    <onclick>ActivateWindow(tvchannels)</onclick>
                     <onup>80</onup>
                     <ondown>901</ondown>
                 </control>
@@ -907,44 +907,32 @@
                             <item id="1">
                                 <label>$LOCALIZE[19023]</label>
                                 <icon>windows/home/icons/tvshows.png</icon>
-                                <onclick>ActivateWindow(PVR)</onclick>
-                                <onclick>SetFocus(32)</onclick>
-                                <onclick>SetFocus(11)</onclick>
+                                <onclick>ActivateWindow(tvchannels)</onclick>
                             </item>
                             <item id="2">
                                 <label>$LOCALIZE[19024]</label>
                                 <icon>windows/home/icons/radio.png</icon>
-                                <onclick>ActivateWindow(PVR)</onclick>
-                                <onclick>SetFocus(33)</onclick>
-                                <onclick>SetFocus(12)</onclick>
+                                <onclick>ActivateWindow(radiochannels)</onclick>
                             </item>
                             <item id="3">
                                 <label>$LOCALIZE[19069]</label>
                                 <icon>windows/home/icons/epg.png</icon>
-                                <onclick>ActivateWindow(PVR)</onclick>
-                                <onclick>SetFocus(31)</onclick>
-                                <onclick>SetFocus(10)</onclick>
+                                <onclick>ActivateWindow(tvguide)</onclick>
                             </item>
                             <item id="4">
                                 <label>$LOCALIZE[19163]</label>
                                 <icon>windows/home/icons/recordings.png</icon>
-                                <onclick>ActivateWindow(PVR)</onclick>
-                                <onclick>SetFocus(34)</onclick>
-                                <onclick>SetFocus(13)</onclick>
+                                <onclick>ActivateWindow(tvrecordings)</onclick>
                             </item>
                             <item id="5">
                                 <label>$LOCALIZE[19040]</label>
                                 <icon>windows/home/icons/timers.png</icon>
-                                <onclick>ActivateWindow(PVR)</onclick>
-                                <onclick>SetFocus(35)</onclick>
-                                <onclick>SetFocus(14)</onclick>
+                                <onclick>ActivateWindow(tvtimers)</onclick>
                             </item>
                             <item id="6">
                                 <label>$LOCALIZE[137]</label>
                                 <icon>windows/home/icons/search-tv.png</icon>
-                                <onclick>ActivateWindow(PVR)</onclick>
-                                <onclick>SetFocus(36)</onclick>
-                                <onclick>SetFocus(17)</onclick>
+                                <onclick>ActivateWindow(tvsearch)</onclick>
                             </item>
                         </content>
                     </control>
