@@ -207,9 +207,9 @@
                         </control>
                         <control type="label">
                             <description>ChannelNumber</description>
-                            <posx>1002</posx>
+                            <posx>926</posx>
                             <posy>0</posy>
-                            <width>946</width>
+                            <width>76</width>
                             <height>96</height>
                             <font>Font-Condensed-S75</font>
                             <align>right</align>
@@ -356,9 +356,9 @@
                             <animation effect="fade" start="100" end="64" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(11) + !Container(11).ListItem.IsPlaying">Conditional</animation>
                             <control type="label">
                                 <description>ChannelNumber</description>
-                                <posx>1002</posx>
+                                <posx>926</posx>
                                 <posy>0</posy>
-                                <width>946</width>
+                                <width>76</width>
                                 <height>96</height>
                                 <font>Font-Condensed-S75</font>
                                 <align>right</align>

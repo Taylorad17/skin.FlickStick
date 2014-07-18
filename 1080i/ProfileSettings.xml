@@ -31,7 +31,7 @@
             	<texture border="5">dialogs/default/inner.png</texture>
             </control>
 
-            <control type="image" id="2">
+            <control type="image" id="101">
                 <description>profile image</description>
                 <posx>920</posx>
                 <posy>235</posy>
@@ -49,8 +49,8 @@
                 <font>Font-Condensed-S34</font>
                 <textcolor>ddwhite</textcolor>
                 <align>center</align>
-                <label>$INFO[Control.GetLabel(1000)]</label>
-                <visible>IsEmpty(Control.GetLabel(2))</visible>
+                <label>$INFO[Control.GetLabel(102)]</label>
+                <visible>IsEmpty(Control.GetLabel(101))</visible>
             </control>
             
             <control type="grouplist" id="5">
@@ -69,7 +69,7 @@
                 <scrolltime tween="cubic" easing="out">500</scrolltime>
             </control>
             
-            <control type="label" id="1000">
+            <control type="label" id="102">
                 <description>profile name</description>
                 <posx>1322</posx>
                 <posy>360</posy>
@@ -88,7 +88,7 @@
                 <width>352</width>
                 <height>60</height>
                 <align>right</align>
-                <label>$INFO[Control.GetLabel(1000)]</label>
+                <label>$INFO[Control.GetLabel(102)]</label>
                 <font>Font-Condensed-S32</font>
                 <textcolor>eewhite</textcolor>
                 <visible>ControlGroup(5).HasFocus() + ControlGroup(5).HasFocus(30)</visible>
@@ -100,10 +100,10 @@
                 <posy>430</posy>
                 <width>40</width>
                 <height>40</height>
-                <texture>$INFO[Control.GetLabel(2)]</texture>
+                <texture>$INFO[Control.GetLabel(101)]</texture>
             </control>
             
-            <control type="label" id="1001">
+            <control type="label" id="103">
                 <description>profile location</description>
                 <posx>1322</posx>
                 <posy>480</posy>
@@ -122,7 +122,7 @@
                 <width>352</width>
                 <height>60</height>
                 <align>right</align>
-                <label>$INFO[Control.GetLabel(1001)]</label>
+                <label>$INFO[Control.GetLabel(103)]</label>
                 <font>Font-Condensed-S32</font>
                 <textcolor>eewhite</textcolor>
                 <visible>ControlGroup(5).HasFocus() + ControlGroup(5).HasFocus(32) + !IsEmpty(Control.GetLabel(33))</visible>

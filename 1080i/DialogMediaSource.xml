@@ -271,7 +271,7 @@
                     <shadowcolor>20FFFFFF</shadowcolor>
                     <font>Font-Condensed-S30</font>
                 </control>
-                <control type="button" id="12">
+                <control type="edit" id="12">
                     <description>Name Button</description>
                     <posx>479</posx>
                     <posy>647</posy>
