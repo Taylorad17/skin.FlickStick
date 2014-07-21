@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
     <defaultcontrol>23</defaultcontrol>
-    <visible>Window.IsActive(fullscreenvideo) + [Player.ShowInfo | Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding | Window.IsActive(videoosd) | Window.IsVisible(fullscreeninfo)] + !Window.IsVisible(sliderdialog) + ![!Window.IsActive(videoosd) + [Window.IsActive(script-XBMC-Subtitles-main.xml) | Window.IsActive(pvrguideinfo) | Window.IsActive(pvrosdchannels) | Window.IsActive(pvrosdguide) | Window.IsActive(yesnodialog) | Window.IsActive(okdialog) | Window.IsActive(progressdialog) | Window.IsActive(virtualkeyboard) | Window.IsActive(numericinput) | Window.IsActive(shutdownmenu) | Window.IsActive(osdvideosettings) | Window.IsActive(osdaudiosettings) | Window.IsActive(videobookmarks)]]</visible>
+    <visible>Window.IsActive(fullscreenvideo) + [Player.ShowInfo | Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding | Window.IsActive(videoosd) | Window.IsVisible(fullscreeninfo)] + !Window.IsVisible(sliderdialog) + ![!Window.IsActive(videoosd) + [Window.IsActive(SubtitleSearch) | Window.IsActive(pvrguideinfo) | Window.IsActive(pvrosdchannels) | Window.IsActive(pvrosdguide) | Window.IsActive(yesnodialog) | Window.IsActive(okdialog) | Window.IsActive(progressdialog) | Window.IsActive(virtualkeyboard) | Window.IsActive(numericinput) | Window.IsActive(shutdownmenu) | Window.IsActive(osdvideosettings) | Window.IsActive(osdaudiosettings) | Window.IsActive(videobookmarks)]]</visible>
     <controls>
         <include>OSDWeatherClock</include>
         <include>OSDChapterInfo</include>
@@ -177,7 +177,7 @@
                                 <posy>818</posy>
                                 <width>1300</width>
                                 <height>56</height>
-                                <label>[UPPERCASE]$LOCALIZE[13350][/UPPERCASE]</label>
+                                <label>[UPPERCASE]$LOCALIZE[41372][/UPPERCASE]</label>
                                 <textcolor>99FFFFFF</textcolor>
                                 <font>Font-Condensed-S50</font>
                                 <align>left</align>
@@ -360,7 +360,7 @@
                         </control>
                         <control type="group">
                             <posy>825</posy>
-                            <visible>VideoPlayer.Content(LiveTV)</visible>                          
+                            <visible>VideoPlayer.Content(LiveTV)</visible>
                             <control type="image">
                                 <posx>100</posx>
                                 <posy>87</posy>
@@ -412,7 +412,7 @@
                         </control>
                         <control type="group">
                             <visible>!VideoPlayer.Content(Movies) + !VideoPlayer.Content(Episodes) + !VideoPlayer.Content(LiveTV)</visible>
-                            <posy>825</posy>                        
+                            <posy>825</posy>
                             <control type="image">
                                 <posx>80</posx>
                                 <posy>67</posy>

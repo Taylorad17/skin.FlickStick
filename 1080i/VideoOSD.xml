@@ -73,7 +73,6 @@
                     <alttexturefocus>osd/fullscreen/buttons/subtitles-fo.png</alttexturefocus>
                     <alttexturenofocus>osd/fullscreen/buttons/subtitles-nofo.png</alttexturenofocus>
                     <onclick>ActivateWindow(SubtitleSearch)</onclick>
-                    <usealttexture>IsEmpty(Skin.String(SubtitleScript_Path))</usealttexture>
                     <onleft>12</onleft>
                     <onright>1</onright>
                     <onup>Close</onup>
