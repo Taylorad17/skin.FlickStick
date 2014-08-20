@@ -97,7 +97,7 @@
                             <description>Label</description>
                             <posx>105</posx>
                             <posy>0</posy>
-                            <width>375</width>
+                            <width>305</width>
                             <height>80</height>
                             <font>Font-Condensed-S34-B</font>
                             <align>left</align>
@@ -108,9 +108,9 @@
                         </control>
                         <control type="label">
                             <description>ChannelNumber</description>
-                            <posx>480</posx>
+                            <posx>405</posx>
                             <posy>0</posy>
-                            <width>375</width>
+                            <width>75</width>
                             <height>80</height>
                             <font>Font-Condensed-S49</font>
                             <align>right</align>
@@ -159,7 +159,7 @@
                             <description>Label</description>
                             <posx>105</posx>
                             <posy>0</posy>
-                            <width>375</width>
+                            <width>305</width>
                             <height>80</height>
                             <font>Font-Condensed-S34-B</font>
                             <align>left</align>
@@ -171,9 +171,9 @@
                         </control>
                         <control type="label">
                             <description>ChannelNumber</description>
-                            <posx>480</posx>
+                            <posx>405</posx>
                             <posy>0</posy>
-                            <width>375</width>
+                            <width>75</width>
                             <height>80</height>
                             <font>Font-Condensed-S49</font>
                             <align>right</align>
