@@ -197,7 +197,6 @@
                         <onright>70</onright>
                         <onup>50</onup>
                         <ondown>50</ondown>
-                        <onback>100</onback>
                         <viewtype label="535">list</viewtype>
                         <preloaditems>2</preloaditems>
                         <scrolltime tween="cubic" easing="out">500</scrolltime>
@@ -229,9 +228,9 @@
                             </control>
                             <control type="label">
                                 <description>ChannelNumber</description>
-                                <posx>926</posx>
+                                <posx>870</posx>
                                 <posy>0</posy>
-                                <width>76</width>
+                                <width>132</width>
                                 <height>96</height>
                                 <font>Font-Condensed-S75</font>
                                 <align>right</align>
@@ -378,9 +377,9 @@
                                 <animation effect="fade" start="100" end="64" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(50) + !Container(50).ListItem.IsPlaying">Conditional</animation>
                                 <control type="label">
                                     <description>ChannelNumber</description>
-                                    <posx>926</posx>
+                                    <posx>870</posx>
                                     <posy>0</posy>
-                                    <width>76</width>
+                                    <width>132</width>
                                     <height>96</height>
                                     <font>Font-Condensed-S75</font>
                                     <align>right</align>
