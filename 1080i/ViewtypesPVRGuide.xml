@@ -114,7 +114,7 @@
                             <height>80</height>
                             <font>Font-Condensed-S49</font>
                             <align>right</align>
-                            <label>$INFO[ListItem.ChannelNumber]</label>
+                            <label>$INFO[ListItem.ChannelNumberLabel]</label>
                             <textcolor>22FFFFFF</textcolor>
                             <selectedcolor>22FFFFFF</selectedcolor>
                             <scroll>false</scroll>
@@ -177,7 +177,7 @@
                             <height>80</height>
                             <font>Font-Condensed-S49</font>
                             <align>right</align>
-                            <label>$INFO[ListItem.ChannelNumber]</label>
+                            <label>$INFO[ListItem.ChannelNumberLabel]</label>
                             <textcolor>22FFFFFF</textcolor>
                             <selectedcolor>22FFFFFF</selectedcolor>
                             <scroll>false</scroll>

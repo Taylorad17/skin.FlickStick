@@ -234,7 +234,7 @@
                                 <height>96</height>
                                 <font>Font-Condensed-S75</font>
                                 <align>right</align>
-                                <label>$VAR[ListItem.ChannelNumber]</label>
+                                <label>$VAR[ListItem.ChannelNumberLabel]</label>
                                 <textcolor>44FFFFFF</textcolor>
                                 <scroll>false</scroll>
                             </control>
@@ -383,7 +383,7 @@
                                     <height>96</height>
                                     <font>Font-Condensed-S75</font>
                                     <align>right</align>
-                                    <label>$VAR[ListItem.ChannelNumber]</label>
+                                    <label>$VAR[ListItem.ChannelNumberLabel]</label>
                                     <textcolor>aawhite</textcolor>
                                     <scroll>false</scroll>
                                 </control>

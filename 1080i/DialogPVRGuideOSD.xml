@@ -152,7 +152,7 @@
                             <texture>views/other/selected.png</texture>
                             <colordiffuse>07FFFFFF</colordiffuse>
                             <aspectratio aligny="top">center</aspectratio>
-                            <visible>StringCompare(ListItem.Title,VideoPlayer.Title) + StringCompare(ListItem.ChannelNumber,VideoPlayer.ChannelNumber) + StringCompare(ListItem.EndTime,VideoPlayer.EndTime)</visible>
+                            <visible>StringCompare(ListItem.Title,VideoPlayer.Title) + StringCompare(ListItem.ChannelNumberLabel,VideoPlayer.ChannelNumberLabel) + StringCompare(ListItem.EndTime,VideoPlayer.EndTime)</visible>
                         </control>
 	                    <control type="label">
 	                        <description>Label</description>
@@ -221,7 +221,7 @@
                             <texture>views/other/selected.png</texture>
                             <colordiffuse>07FFFFFF</colordiffuse>
                             <aspectratio aligny="top">center</aspectratio>
-                            <visible>StringCompare(ListItem.Title,VideoPlayer.Title) + StringCompare(ListItem.ChannelNumber,VideoPlayer.ChannelNumber) + StringCompare(ListItem.EndTime,VideoPlayer.EndTime)</visible>
+                            <visible>StringCompare(ListItem.Title,VideoPlayer.Title) + StringCompare(ListItem.ChannelNumberLabel,VideoPlayer.ChannelNumberLabel) + StringCompare(ListItem.EndTime,VideoPlayer.EndTime)</visible>
                         </control>
                         <control type="image">
                             <posx>0</posx>
