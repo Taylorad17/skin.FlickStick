@@ -380,9 +380,40 @@
                         <showonepage>false</showonepage>
                         <animation effect="fade" start="35" end="0" time="300" tween="sine" easing="inout" condition="!Control.IsVisible(9772) + !Control.HasFocus(70)">Conditional</animation>
                     </control>
+                    <control type="group">
+		            	<description>Disk usage</description>
+		            	<posx>160</posx>
+		            	<posy>910</posy>
+						<control type="progress">
+							<description>Disk usage bar</description>
+							<left>0</left>
+							<top>0</top>
+							<width>67</width>
+		                    <height>19</height>
+							<texturebg>windows/pvr/progress-back.png</texturebg>
+		                    <lefttexture>windows/pvr/progress-leftright.png</lefttexture>
+		                    <midtexture>windows/pvr/progress-mid.png</midtexture>
+		                    <righttexture>windows/pvr/progress-leftright.png</righttexture>
+		                    <info>PVR.BackendDiskspaceProgr</info>
+		                    <colordiffuse>aawhite</colordiffuse>
+							<visible>!IntegerGreaterThan(PVR.BackendDiskspaceProgr,100)</visible>
+						</control>
+						<control type="label">
+							<description>Disk usage text</description>
+							<left>80</left>
+							<top>0</top>
+							<width>500</width>
+							<height>20</height>
+							<label>$INFO[PVR.BackendDiskspace]</label>
+							<align>left</align>
+							<aligny>center</aligny>
+							<textcolor>D4FFFFFF</textcolor>
+							<font>Font-Condensed-S28</font>
+							<visible>!IntegerGreaterThan(PVR.BackendDiskspaceProgr,100)</visible>
+						</control>
+					</control>
                 </control>
             </control>
-            
             <include>PVRMenu</include>
             <include>PVROptionsMenu</include>
         </control>
