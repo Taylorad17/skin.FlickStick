@@ -1903,21 +1903,6 @@
             </control>
         </control>
     </include>
-     
-     <include name="PVRGuideInfoOSDExtended">
-         <control type="group" id="8000">
-            <defaultcontrol>5</defaultcontrol>
-            <control type="button" id="6">
-                <description>Record/Add timer button</description>
-                <onleft>PreviousMenu</onleft>
-                <onright>PreviousMenu</onright>
-                <onup>PreviousMenu</onup>
-                <ondown>PreviousMenu</ondown>
-                <label>-</label>
-                <visible allowhiddenfocus="true">false</visible>
-            </control>
-        </control>         
-     </include>
   
     <include name="FileBrowserDefault">
         <control type="group">
