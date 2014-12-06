@@ -146,11 +146,11 @@
                     <posx>318</posx>
                     <posy>303</posy>
                     <control type="image">
-                    	<posx>0</posx>
-                    	<posy>0</posy>
-                    	<width>310</width>
-                    	<height>473</height>
-                    	<texture border="5">dialogs/default/inner.png</texture>
+                        <posx>0</posx>
+                        <posy>0</posy>
+                        <width>310</width>
+                        <height>473</height>
+                        <texture border="5">dialogs/default/inner.png</texture>
                     </control>
                     <control type="grouplist" id="9">
                         <description>button area</description>
@@ -184,11 +184,11 @@
                     <posx>642</posx>
                     <posy>303</posy>
                     <control type="image">
-                    	<posx>0</posx>
-                    	<posy>0</posy>
-                    	<width>960</width>
-                    	<height>473</height>
-                    	<texture border="5">dialogs/default/inner.png</texture>
+                        <posx>0</posx>
+                        <posy>0</posy>
+                        <width>960</width>
+                        <height>473</height>
+                        <texture border="5">dialogs/default/inner.png</texture>
                     </control>
                     <control type="grouplist" id="2">
                         <description>control area</description>
@@ -621,11 +621,11 @@
                     <texture border="39">dialogs/default/bg.png</texture>
                 </control>
                 <control type="image">
-                	<posx>638</posx>
-                	<posy>300</posy>
-                	<width>644</width>
-                	<height>481</height>
-                	<texture border="5">dialogs/default/inner.png</texture>
+                    <posx>638</posx>
+                    <posy>300</posy>
+                    <width>644</width>
+                    <height>481</height>
+                    <texture border="5">dialogs/default/inner.png</texture>
                 </control>
             </control>
             
@@ -639,25 +639,25 @@
                     <texture border="39">dialogs/default/bg.png</texture>
                 </control>
                 <control type="image">
-                	<posx>421</posx>
-                	<posy>300</posy>
-                	<width>644</width>
-                	<height>481</height>
-                	<texture border="5">dialogs/default/inner.png</texture>
+                    <posx>421</posx>
+                    <posy>300</posy>
+                    <width>644</width>
+                    <height>481</height>
+                    <texture border="5">dialogs/default/inner.png</texture>
                 </control>
                 <control type="image">
-                	<posx>1079</posx>
-                	<posy>300</posy>
-                	<width>420</width>
-                	<height>421</height>
-                	<texture border="5">dialogs/default/inner-dark.png</texture>
+                    <posx>1079</posx>
+                    <posy>300</posy>
+                    <width>420</width>
+                    <height>421</height>
+                    <texture border="5">dialogs/default/inner-dark.png</texture>
                 </control>
                 <control type="image">
-                	<posx>1079</posx>
-                	<posy>719</posy>
-                	<width>420</width>
-                	<height>62</height>
-                	<texture border="5">dialogs/default/inner.png</texture>
+                    <posx>1079</posx>
+                    <posy>719</posy>
+                    <width>420</width>
+                    <height>62</height>
+                    <texture border="5">dialogs/default/inner.png</texture>
                 </control>
                 <control type="image">
                     <posx>1089</posx>
@@ -1579,11 +1579,11 @@
                     <texture border="39">dialogs/default/bg.png</texture>
                 </control>
                 <control type="image">
-                	<posx>479</posx>
-                	<posy>265</posy>
-                	<width>962</width>
-                	<height>548</height>
-                	<texture border="5">dialogs/default/inner.png</texture>
+                    <posx>479</posx>
+                    <posy>265</posy>
+                    <width>962</width>
+                    <height>548</height>
+                    <texture border="5">dialogs/default/inner.png</texture>
                 </control>
                 
                 <control type="textbox" id="5">
@@ -1727,104 +1727,104 @@
                 <posx>560</posx>
                 <posy>234</posy>
                 <control type="image">
-                	<posx>0</posx>
-                	<posy>0</posy>
-                	<width>800</width>
-                	<height>239</height>
-                	<texture border="5">dialogs/default/inner.png</texture>
+                    <posx>0</posx>
+                    <posy>0</posy>
+                    <width>800</width>
+                    <height>239</height>
+                    <texture border="5">dialogs/default/inner.png</texture>
                 </control>
                 <control type="button">
-                	<description>Time</description>
-                	<posx>0</posx>
-                	<posy>0</posy>
-                	<width>800</width>
-                	<height>60</height>
-                	<align>left</align>
-                	<textoffsetx>20</textoffsetx>
-                	<textwidth>540</textwidth>
-                	<font>Font-Condensed-S32</font>
-                	<textcolor>FF585858</textcolor>
-                	<disabledcolor>FF585858</disabledcolor>
-                	<shadowcolor>20FFFFFF</shadowcolor>
-                	<texturenofocus>dialogs/default/separator.png</texturenofocus>
-                	<label>$LOCALIZE[142]</label>
-                	<label2>$INFO[ListItem.StartTime]$INFO[ListItem.EndTime, - ] ($INFO[ListItem.StartDate])</label2>
-                	<enable>false</enable>
+                    <description>Time</description>
+                    <posx>0</posx>
+                    <posy>0</posy>
+                    <width>800</width>
+                    <height>60</height>
+                    <align>left</align>
+                    <textoffsetx>20</textoffsetx>
+                    <textwidth>540</textwidth>
+                    <font>Font-Condensed-S32</font>
+                    <textcolor>FF585858</textcolor>
+                    <disabledcolor>FF585858</disabledcolor>
+                    <shadowcolor>20FFFFFF</shadowcolor>
+                    <texturenofocus>dialogs/default/separator.png</texturenofocus>
+                    <label>$LOCALIZE[142]</label>
+                    <label2>$INFO[ListItem.StartTime]$INFO[ListItem.EndTime, - ] ($INFO[ListItem.StartDate])</label2>
+                    <enable>false</enable>
                 </control>
                 <control type="button">
-                	<description>Duration</description>
-                	<posx>0</posx>
-                	<posy>59</posy>
-                	<width>800</width>
-                	<height>60</height>
-                	<align>left</align>
-                	<textoffsetx>20</textoffsetx>
-                	<textwidth>540</textwidth>
-                	<font>Font-Condensed-S32</font>
-                	<textcolor>FF585858</textcolor>
-                	<disabledcolor>FF585858</disabledcolor>
-                	<shadowcolor>20FFFFFF</shadowcolor>
-                	<texturenofocus>dialogs/default/separator.png</texturenofocus>
-                	<label>$LOCALIZE[180]</label>
-                	<label2>$INFO[ListItem.Duration]</label2>
-                	<enable>false</enable>
+                    <description>Duration</description>
+                    <posx>0</posx>
+                    <posy>59</posy>
+                    <width>800</width>
+                    <height>60</height>
+                    <align>left</align>
+                    <textoffsetx>20</textoffsetx>
+                    <textwidth>540</textwidth>
+                    <font>Font-Condensed-S32</font>
+                    <textcolor>FF585858</textcolor>
+                    <disabledcolor>FF585858</disabledcolor>
+                    <shadowcolor>20FFFFFF</shadowcolor>
+                    <texturenofocus>dialogs/default/separator.png</texturenofocus>
+                    <label>$LOCALIZE[180]</label>
+                    <label2>$INFO[ListItem.Duration]</label2>
+                    <enable>false</enable>
                 </control>
                 <control type="button">
-                	<description>Channel</description>
-                	<posx>0</posx>
-                	<posy>118</posy>
-                	<width>800</width>
-                	<height>60</height>
-                	<align>left</align>
-                	<textoffsetx>20</textoffsetx>
-                	<textwidth>540</textwidth>
-                	<font>Font-Condensed-S32</font>
-                	<textcolor>FF585858</textcolor>
-                	<disabledcolor>FF585858</disabledcolor>
-                	<shadowcolor>20FFFFFF</shadowcolor>
-                	<texturenofocus>dialogs/default/separator.png</texturenofocus>
-                	<label>$LOCALIZE[19148]</label>
-                	<label2>$INFO[ListItem.ChannelName]</label2>
-                	<enable>false</enable>
+                    <description>Channel</description>
+                    <posx>0</posx>
+                    <posy>118</posy>
+                    <width>800</width>
+                    <height>60</height>
+                    <align>left</align>
+                    <textoffsetx>20</textoffsetx>
+                    <textwidth>540</textwidth>
+                    <font>Font-Condensed-S32</font>
+                    <textcolor>FF585858</textcolor>
+                    <disabledcolor>FF585858</disabledcolor>
+                    <shadowcolor>20FFFFFF</shadowcolor>
+                    <texturenofocus>dialogs/default/separator.png</texturenofocus>
+                    <label>$LOCALIZE[19148]</label>
+                    <label2>$INFO[ListItem.ChannelName]</label2>
+                    <enable>false</enable>
                 </control>
                 <control type="button">
-                	<description>Genre</description>
-                	<posx>0</posx>
-                	<posy>177</posy>
-                	<width>800</width>
-                	<height>60</height>
-                	<align>left</align>
-                	<textoffsetx>20</textoffsetx>
-                	<textwidth>540</textwidth>
-                	<font>Font-Condensed-S32</font>
-                	<textcolor>FF585858</textcolor>
-                	<disabledcolor>FF585858</disabledcolor>
-                	<shadowcolor>20FFFFFF</shadowcolor>
-                	<label>$LOCALIZE[135]</label>
-                	<label2 fallback="161">$INFO[ListItem.Genre]</label2>
-                	<enable>false</enable>
+                    <description>Genre</description>
+                    <posx>0</posx>
+                    <posy>177</posy>
+                    <width>800</width>
+                    <height>60</height>
+                    <align>left</align>
+                    <textoffsetx>20</textoffsetx>
+                    <textwidth>540</textwidth>
+                    <font>Font-Condensed-S32</font>
+                    <textcolor>FF585858</textcolor>
+                    <disabledcolor>FF585858</disabledcolor>
+                    <shadowcolor>20FFFFFF</shadowcolor>
+                    <label>$LOCALIZE[135]</label>
+                    <label2 fallback="161">$INFO[ListItem.Genre]</label2>
+                    <enable>false</enable>
                 </control>
             </control>
             <control type="image">
-            	<posx>560</posx>
-            	<posy>486</posy>
-            	<width>800</width>
-            	<height>360</height>
-            	<texture border="5">dialogs/default/inner.png</texture>
+                <posx>560</posx>
+                <posy>486</posy>
+                <width>800</width>
+                <height>360</height>
+                <texture border="5">dialogs/default/inner.png</texture>
             </control>
             <control type="textbox" id="400">
-            	<description>Plot value</description>
-            	<posx>580</posx>
-            	<posy>506</posy>
-            	<width>760</width>
-            	<height>320</height>
-            	<font>Font-Condensed-S34</font>
-            	<align>justify</align>
-            	<textcolor>FF585858</textcolor>
-            	<shadowcolor>20FFFFFF</shadowcolor>
-            	<pagecontrol>60</pagecontrol>
-            	<autoscroll delay="10000" time="3000" repeat="6000">!Control.HasFocus(60) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
-            	<label fallback="161">$INFO[ListItem.Plot]</label>
+                <description>Plot value</description>
+                <posx>580</posx>
+                <posy>506</posy>
+                <width>760</width>
+                <height>320</height>
+                <font>Font-Condensed-S34</font>
+                <align>justify</align>
+                <textcolor>FF585858</textcolor>
+                <shadowcolor>20FFFFFF</shadowcolor>
+                <pagecontrol>60</pagecontrol>
+                <autoscroll delay="10000" time="3000" repeat="6000">!Control.HasFocus(60) + !Skin.HasSetting(AutoScroll.Disable)</autoscroll>
+                <label fallback="161">$INFO[ListItem.Plot]</label>
             </control>
             <control type="scrollbar" id="60">
                 <posx>1346</posx>
@@ -1845,7 +1845,7 @@
                 <animation effect="fade" start="75" end="0" time="300" tween="sine" easing="inout" condition="!Control.HasFocus(60)">Conditional</animation>
             </control>
             <control type="group" id="8000">
-            	<visible>Window.IsActive(pvrguideinfo)</visible>
+                <visible>Window.IsActive(pvrguideinfo)</visible>
                 <posx>549</posx>
                 <posy>843</posy>
                 <defaultcontrol>5</defaultcontrol>
@@ -1886,7 +1886,7 @@
                 </control>
             </control>
             <control type="group" id="8000">
-            	<visible>Window.IsActive(pvrrecordinginfo)</visible>
+                <visible>Window.IsActive(pvrrecordinginfo)</visible>
                 <posx>549</posx>
                 <posy>843</posy>
                 <control type="button" id="10">
@@ -1903,21 +1903,21 @@
             </control>
         </control>
     </include>
- 	
- 	<include name="PVRGuideInfoOSDExtended">
- 		<control type="group" id="8000">
+     
+     <include name="PVRGuideInfoOSDExtended">
+         <control type="group" id="8000">
             <defaultcontrol>5</defaultcontrol>
-		    <control type="button" id="6">
-			    <description>Record/Add timer button</description>
-			    <onleft>PreviousMenu</onleft>
-			    <onright>PreviousMenu</onright>
-			    <onup>PreviousMenu</onup>
-			    <ondown>PreviousMenu</ondown>
-			    <label>-</label>
-			    <visible allowhiddenfocus="true">false</visible>
-			</control>
-	    </control> 		
- 	</include>
+            <control type="button" id="6">
+                <description>Record/Add timer button</description>
+                <onleft>PreviousMenu</onleft>
+                <onright>PreviousMenu</onright>
+                <onup>PreviousMenu</onup>
+                <ondown>PreviousMenu</ondown>
+                <label>-</label>
+                <visible allowhiddenfocus="true">false</visible>
+            </control>
+        </control>         
+     </include>
   
     <include name="FileBrowserDefault">
         <control type="group">
@@ -1957,18 +1957,18 @@
                     <texture border="39">dialogs/default/bg.png</texture>
                 </control>
                 <control type="image">
-                	<posx>479</posx>
-                	<posy>300</posy>
-                	<width>644</width>
-                	<height>481</height>
-                	<texture border="5">dialogs/default/inner.png</texture>
+                    <posx>479</posx>
+                    <posy>300</posy>
+                    <width>644</width>
+                    <height>481</height>
+                    <texture border="5">dialogs/default/inner.png</texture>
                 </control>
                 <control type="image">
-                	<posx>1122</posx>
-                	<posy>300</posy>
-                	<width>319</width>
-                	<height>481</height>
-                	<texture border="5">dialogs/default/inner-dark.png</texture>
+                    <posx>1122</posx>
+                    <posy>300</posy>
+                    <width>319</width>
+                    <height>481</height>
+                    <texture border="5">dialogs/default/inner-dark.png</texture>
                 </control>
                             
                 <control type="label" id="411">
