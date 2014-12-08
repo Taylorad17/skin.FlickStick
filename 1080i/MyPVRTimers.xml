@@ -6,7 +6,6 @@
     <controls>
         <include>CommonPVRItems</include>
         <include>PVRHeader</include>
-        <include>Common-Info</include>
         
         <control type="group">
             <posx>0</posx>
@@ -14,6 +13,8 @@
                 <effect type="fade" start="100" end="0" time="300" tween="sine" easing="out" />
                 <effect type="zoom" start="100" end="85" time="300" center="960,600" tween="sine" easing="out" />
             </animation>
+            
+            <include>PVRMenu</include>
             
             <control type="group" id="110">
                 <include>FullscreenDimensions</include>
@@ -246,10 +247,9 @@
                     </control>
                 </control>
             </control>
-            
-            <include>PVRMenu</include>
-            <include>PVROptionsMenu</include>
         </control>
+        <include>Common-Info</include>
+        <include>PVROptionsMenu</include>
         <include>PVRScrollbarVisiblityControl</include>
     </controls>
 </window>
