@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.xperience1080x" version="3.0.0-alpha1" name="Xperience1080x" provider-name="`Black">
+<addon id="skin.xperience1080x" version="3.0.0-alpha1" name="Xperience1080x" provider-name="xhaggi">
 	<requires>
 		<import addon="xbmc.gui" version="5.3.0" />
 		<import addon="service.skin.widgets" version="0.0.25" />
@@ -39,23 +39,22 @@
         <description lang="nl">Xperience1080 begon als 1080p modificatie van Team Blackbolt's  Xperience skin. Sindsdien is de skin drastisch gewijzigd, waardoor het tegenwoordig niet veel gemeen heeft met de oorspronkelijke Xperience skin. Xperience1080 presenteert u een skin met de nadruk op grafische kwaliteit, vloeiende animaties en goed geïntegreerde functies en add-ons.</description>
         <description lang="pl">Xperience1080 powstało jako modyfikacja skórki Xperience. Z biegiem czasu skóra zasadniczo się zmieniała, więc teraz nie ma wiele wspólnego z oryginalną skórką Xperience. Xperience1080 kładzie szczególny nacisk na jakość grafiki, animacji i bardzo dobrze zintegrowane funkcje oraz dodatki.</description>
         <description lang="ru">Изначально скин Xperience1080 был создан как адаптация скина Xperience от Team Blackbolt под 1080p. Однако со временем он кардинально изменился и сейчас в нем осталось не так много от своего предка. Xperience1080 спроектирован с упором на высочайшее качество графики, гладкость анимации и хорошую интеграцию функционала и дополнений.</description>
-        <disclaimer lang="de">Nur kompatibel mit XBMC 12.x "Frodo".</disclaimer>
-        <disclaimer lang="el">Συμβατό μόνο με την έκδοση XBMC 12.x "Frodo".</disclaimer>
-        <disclaimer lang="en">Compatible with XBMC 12.x "Frodo" only.</disclaimer>
-        <disclaimer lang="es">Solo compatible con XBMC 12.x "Frodo".</disclaimer>
-        <disclaimer lang="fr">Compatible avec XBMC 12.x "Frodo" uniquement.</disclaimer>
-        <disclaimer lang="gl">Solo compatible con XBMC 12.x "Frodo"</disclaimer>
-        <disclaimer lang="he">תומך בגירסת "פרודו" XMBC 12.x בלבד</disclaimer>
-        <disclaimer lang="hu">Csak az XBMC 12.x "Frodo"-val kompatibilis</disclaimer>
-        <disclaimer lang="it">Compatibile solo con XBMC 12.x "Frodo"</disclaimer>
-        <disclaimer lang="ko">XBMC 12.x "Frodo"에서만 사용할 수 있습니다.</disclaimer>
-        <disclaimer lang="nl">Alleen compatibel met XBMC 12.x "Frodo".</disclaimer>
-        <disclaimer lang="pl">Skóra kompatybilna wyłącznie z XBMC 12.x "Frodo".</disclaimer>
-        <disclaimer lang="ru">Совместим только с последними сборками XBMC 12.x "Frodo".</disclaimer>
+        <disclaimer lang="de">Nur kompatibel mit Kodi 14.x "Helix".</disclaimer>
+        <disclaimer lang="el">Συμβατό μόνο με την έκδοση Kodi 14.x "Helix".</disclaimer>
+        <disclaimer lang="en">Compatible with Kodi 14.x "Helix" only.</disclaimer>
+        <disclaimer lang="es">Solo compatible con Kodi 14.x "Helix".</disclaimer>
+        <disclaimer lang="fr">Compatible avec Kodi 14.x "Helix" uniquement.</disclaimer>
+        <disclaimer lang="gl">Solo compatible con Kodi 14.x "Helix"</disclaimer>
+        <disclaimer lang="he">תומך בגירסת "פרודו" Kodi 14.x "Helix"</disclaimer>
+        <disclaimer lang="hu">Csak az Kodi 14.x "Helix"-val kompatibilis</disclaimer>
+        <disclaimer lang="it">Compatibile solo con Kodi 14.x "Helix"</disclaimer>
+        <disclaimer lang="ko">Kodi 14.x "Helix"에서만 사용할 수 있습니다.</disclaimer>
+        <disclaimer lang="nl">Alleen compatibel met Kodi 14.x "Helix".</disclaimer>
+        <disclaimer lang="pl">Skóra kompatybilna wyłącznie z Kodi 14.x "Helix".</disclaimer>
+        <disclaimer lang="ru">Совместим только с последними сборками Kodi 14.x "Helix".</disclaimer>
         <platform>all</platform>
         <license>Creative Commons Attribution-Noncommercial-Share Alike 3.0</license>
         <forum>http://forum.xbmc.org/showthread.php?tid=146690</forum>
-        <source>https://github.com/Black09/Xperience1080</source>
-        <email>xperience1080 at iCloud dot com</email>
+        <source>https://github.com/xhaggi/Xperience1080</source>
 	</extension>
 </addon>
