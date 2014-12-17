@@ -75,7 +75,7 @@
                             <posy>0</posy>
                             <width>338</width>
                             <height>77</height>
-                            <align>left</align>
+                            <align>right</align>
                             <aligny>center</aligny>
                             <label>$INFO[ListItem.Label]</label>
                             <textcolor>96FFFFFF</textcolor>
@@ -97,7 +97,7 @@
                             <posy>0</posy>
                             <width>338</width>
                             <height>77</height>
-                            <align>left</align>
+                            <align>right</align>
                             <aligny>center</aligny>
                             <label>$INFO[ListItem.Label]</label>
                             <textcolor>white</textcolor>
