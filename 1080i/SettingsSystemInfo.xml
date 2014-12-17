@@ -249,7 +249,7 @@
                     <posy>767</posy>
                     <width>336</width>
                     <height>100</height>
-                    <texture>windows/settings/xbmc-logo.png</texture>
+                    <texture>windows/settings/kodi-logo.png</texture>
                 </control>
                 
                 <control type="group">
