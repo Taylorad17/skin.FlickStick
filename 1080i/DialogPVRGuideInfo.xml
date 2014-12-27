@@ -3,6 +3,7 @@
     <defaultcontrol always="true">8000</defaultcontrol>
     <include condition="Window.IsActive(fullscreenvideo)">PVRGuideInfoZOrder</include>
     <controls>
+        <include condition="Window.IsActive(fullscreenvideo)">FadeBackground</include>
         <include>PVRGuideInfo</include>
     </controls>
 </window>
