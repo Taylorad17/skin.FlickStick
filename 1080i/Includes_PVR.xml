@@ -207,7 +207,7 @@
                 <onback>9001</onback>
                 <include>GeneralOptionsAnimations</include>
                 <control type="button" id="2">
-                    <description>Label</description>
+                    <description>Change view</description>
                     <posy>330</posy>
                     <include>optionsbuttonsdimensions</include>
                     <label>-</label>
@@ -238,6 +238,7 @@
                     <include>optionsbuttonsdimensions</include>
                     <label>587</label>
                     <selected>Container.Filtered</selected>
+                    <onclick>SetFocus(50)</onclick>
                     <texturefocus border="2">dialogs/options/buttons/default-fo.png</texturefocus>
                     <textureradioon>buttons/radio/options-radio-button-fo.png</textureradioon>
                     <textureradiooff>buttons/radio/options-radio-button-nf.png</textureradiooff>
@@ -249,6 +250,7 @@
                     <description>Group recording items by folder structure</description>
                     <include>optionsbuttonsdimensions</include>
                     <label>19270</label>
+                    <onclick>SetFocus(50)</onclick>
                     <texturefocus border="2">dialogs/options/buttons/default-fo.png</texturefocus>
                     <textureradioon>buttons/radio/options-radio-button-fo.png</textureradioon>
                     <textureradiooff>buttons/radio/options-radio-button-nf.png</textureradiooff>
@@ -260,6 +262,7 @@
                     <description>Show hidden channels</description>
                     <include>optionsbuttonsdimensions</include>
                     <label>19051</label>
+                    <onclick>SetFocus(50)</onclick>
                     <texturefocus border="2">dialogs/options/buttons/default-fo.png</texturefocus>
                     <textureradioon>buttons/radio/options-radio-button-fo.png</textureradioon>
                     <textureradiooff>buttons/radio/options-radio-button-nf.png</textureradiooff>
