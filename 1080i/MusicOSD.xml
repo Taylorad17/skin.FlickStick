@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
     <defaultcontrol>3</defaultcontrol>
-    <allowoverlay>no</allowoverlay>
+    <allowoverlay>yes</allowoverlay>
+    <zorder>2</zorder>
     <controls>
         <control type="group">
             <animation type="WindowOpen" condition="Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding">
