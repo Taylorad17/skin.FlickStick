@@ -546,7 +546,7 @@ msgstr "Startseite"
 
 msgctxt "#41525"
 msgid "search Kodi for"
-msgid "durchsuche Kodi nach"
+msgstr "durchsuche Kodi nach"
 
 msgctxt "#41550"
 msgid "Spotlight"
