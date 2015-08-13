@@ -2703,9 +2703,9 @@
                         </control>
                         <control type="label">
                             <description>temp value</description>
-                            <posx>650</posx>
+                            <posx>110</posx>
                             <posy>0</posy>
-                            <width>110</width>
+                            <width>546</width>
                             <height>95</height>
                             <font>Font-Condensed-S42-B</font>
                             <label>$INFO[ListItem.Property(temp)]</label>
@@ -2800,9 +2800,9 @@
                             </control>
                             <control type="label">
                                 <description>temp value</description>
-                                <posx>546</posx>
+                                <posx>110</posx>
                                 <posy>0</posy>
-                                <width>110</width>
+                                <width>546</width>
                                 <height>95</height>
                                 <font>Font-Condensed-S42-B</font>
                                 <label>$INFO[ListItem.Property(temp)]</label>
