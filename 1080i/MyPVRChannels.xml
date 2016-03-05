@@ -6,7 +6,7 @@
     <controls>
         <include>CommonPVRItems</include>
         <include>PVRHeader</include>
-        
+
         <control type="group">
             <posx>0</posx>
             <animation type="WindowClose">
@@ -135,7 +135,7 @@
                         <posx>1755</posx>
                         <posy>300</posy>
                         <width>6</width>
-                        <height>416</height>                    
+                        <height>416</height>
                         <onleft>70</onleft>
                         <onright>50</onright>
                         <texturesliderbar border="1">views/other/scrollbar-sq.png</texturesliderbar>
@@ -500,9 +500,9 @@
                     <!-- =========== -->
                     <control type="panel" id="500">
                         <posx>150</posx>
-                        <posy>218</posy>
+                        <posy>216</posy>
                         <width>1022</width>
-                        <height>672</height>
+                        <height>674</height>
                         <pagecontrol>70</pagecontrol>
                         <onleft>100</onleft>
                         <onright>70</onright>
@@ -512,22 +512,22 @@
                         <orientation>vertical</orientation>
                         <preloaditems>2</preloaditems>
                         <scrolltime tween="cubic" easing="out">500</scrolltime>
-                        <itemlayout width="252" height="252">
+                        <itemlayout width="170" height="170">
                             <control type="image">
                                 <description>Background</description>
-                                <posx>0</posx>
-                                <posy>0</posy>
-                                <width>255</width>
-                                <height>255</height>
+                                <posx>5</posx>
+                                <posy>5</posy>
+                                <width>154</width>
+                                <height>154</height>
                                 <texture border="1">views/list/panel/panel.png</texture>
                                 <colordiffuse>eewhite</colordiffuse>
                             </control>
                             <control type="image">
                                 <description>Poster</description>
-                                <posx>12</posx>
-                                <posy>12</posy>
-                                <width>231</width>
-                                <height>231</height>
+                                <posx>5</posx>
+                                <posy>5</posy>
+                                <width>154</width>
+                                <height>154</height>
                                 <texture background="true" fallback="windows/pvr/defaultchannel.png">$VAR[PvrListIcon]</texture>
                                 <colordiffuse>eewhite</colordiffuse>
                                 <aspectratio>keep</aspectratio>
@@ -537,10 +537,10 @@
                                 <visible>IsEmpty(ListItem.Thumb)</visible>
                                 <control type="image">
                                     <description>Poster</description>
-                                    <posx>27</posx>
+                                    <posx>5</posx>
                                     <posy>0</posy>
-                                    <width>201</width>
-                                    <height>201</height>
+                                    <width>154</width>
+                                    <height>154</height>
                                     <texture background="true" fallback="windows/pvr/defaultchannel.png">$VAR[PvrListIcon]</texture>
                                     <colordiffuse>eewhite</colordiffuse>
                                     <aspectratio>keep</aspectratio>
@@ -548,7 +548,7 @@
                                 <control type="label">
                                     <posx>12</posx>
                                     <posy>170</posy>
-                                    <width>231</width>
+                                    <width>200</width>
                                     <height>66</height>
                                     <label>$INFO[ListItem.Label]</label>
                                     <font>Font-Condensed-S32</font>
@@ -559,71 +559,71 @@
                                 </control>
                             </control>
                         </itemlayout>
-                        <focusedlayout width="252" height="252">
-                        <control type="group">
-                            <animation type="Focus">
-                                <effect type="fade" start="93.36" end="100" time="200" tween="sine" easing="in" />
-                            </animation>
-                            <animation type="Unfocus">
-                                <effect type="fade" start="100" end="93.36" time="200" tween="sine" easing="out" />
-                            </animation>
-                            <control type="image">
-                                <description>Background</description>
-                                <posx>0</posx>
-                                <posy>0</posy>
-                                <width>255</width>
-                                <height>255</height>
-                                <texture border="1">views/list/panel/panel.png</texture>
-                            </control>
-                            <control type="image">
-                                <posx>12</posx>
-                                <posy>12</posy>
-                                <width>231</width>
-                                <height>231</height>
-                                <texture background="true" fallback="windows/pvr/defaultchannel.png">$VAR[PvrListIcon]</texture>
-                                <aspectratio>keep</aspectratio>
-                                <visible>!IsEmpty(ListItem.Thumb)</visible>
-                            </control>
+                        <focusedlayout width="170" height="170">
                             <control type="group">
-                                <visible>IsEmpty(ListItem.Thumb)</visible>
-                                <control type="image">
-                                    <posx>27</posx>
-                                    <posy>0</posy>
-                                    <width>201</width>
-                                    <height>201</height>
-                                    <texture background="true" fallback="windows/pvr/defaultchannel.png">$VAR[PvrListIcon]</texture>
-                                    <aspectratio>keep</aspectratio>
-                                </control>
-                                <control type="label">
-                                    <posx>12</posx>
-                                    <posy>170</posy>
-                                    <width>231</width>
-                                    <height>66</height>
-                                    <label>$INFO[ListItem.Label]</label>
-                                    <font>Font-Condensed-S32</font>
-                                    <textcolor>99FFFFFF</textcolor>
-                                    <shadowcolor>22000000</shadowcolor>
-                                    <scroll>false</scroll>
-                                    <align>center</align>
-                                </control>
-                            </control>
-                            <control type="image">
-                                <posx>0</posx>
-                                <posy>0</posy>
-                                <width>255</width>
-                                <height>255</height>
-                                <texture border="31">views/panel/focus.png</texture>
                                 <animation type="Focus">
-                                    <effect type="zoom" start="90" end="100" time="200" tween="sine" easing="inout" center="auto" />
-                                    <effect type="fade" start="0" end="100" time="200" tween="sine" easing="in" />
+                                    <effect type="fade" start="93.36" end="100" time="200" tween="sine" easing="in" />
                                 </animation>
                                 <animation type="Unfocus">
-                                    <effect type="zoom" start="100" end="90" time="200" tween="sine" easing="inout" center="auto" />
-                                    <effect type="fade" start="100" end="0" time="200" tween="sine" easing="out" />
+                                    <effect type="fade" start="100" end="93.36" time="200" tween="sine" easing="out" />
                                 </animation>
+                                <control type="image">
+                                    <description>Background</description>
+                                    <posx>5</posx>
+                                    <posy>5</posy>
+                                    <width>154</width>
+                                    <height>154</height>
+                                    <texture border="1">views/list/panel/panel.png</texture>
+                                </control>
+                                <control type="image">
+                                    <posx>5</posx>
+                                    <posy>5</posy>
+                                    <width>154</width>
+                                    <height>154</height>
+                                    <texture background="true" fallback="windows/pvr/defaultchannel.png">$VAR[PvrListIcon]</texture>
+                                    <aspectratio>keep</aspectratio>
+                                    <visible>!IsEmpty(ListItem.Thumb)</visible>
+                                </control>
+                                <control type="group">
+                                    <visible>IsEmpty(ListItem.Thumb)</visible>
+                                    <control type="image">
+                                        <posx>5</posx>
+                                        <posy>0</posy>
+                                        <width>154</width>
+                                        <height>154</height>
+                                        <texture background="true" fallback="windows/pvr/defaultchannel.png">$VAR[PvrListIcon]</texture>
+                                        <aspectratio>keep</aspectratio>
+                                    </control>
+                                    <control type="label">
+                                        <posx>12</posx>
+                                        <posy>170</posy>
+                                        <width>231</width>
+                                        <height>66</height>
+                                        <label>$INFO[ListItem.Label]</label>
+                                        <font>Font-Condensed-S32</font>
+                                        <textcolor>99FFFFFF</textcolor>
+                                        <shadowcolor>22000000</shadowcolor>
+                                        <scroll>false</scroll>
+                                        <align>center</align>
+                                    </control>
+                                </control>
+                                <control type="image">
+                                    <posx>0</posx>
+                                    <posy>0</posy>
+                                    <width>164</width>
+                                    <height>164</height>
+                                    <texture border="31">views/panel/focus.png</texture>
+                                    <animation type="Focus">
+                                        <effect type="zoom" start="90" end="100" time="200" tween="sine" easing="inout" center="auto" />
+                                        <effect type="fade" start="0" end="100" time="200" tween="sine" easing="in" />
+                                    </animation>
+                                    <animation type="Unfocus">
+                                        <effect type="zoom" start="100" end="90" time="200" tween="sine" easing="inout" center="auto" />
+                                        <effect type="fade" start="100" end="0" time="200" tween="sine" easing="out" />
+                                    </animation>
+                                </control>
                             </control>
-                        </control>
-                    </focusedlayout>
+                        </focusedlayout>
                     </control>
                     <control type="scrollbar" id="70">
                         <description>Scrollbar</description>
@@ -641,7 +641,7 @@
                     </control>
                 </control>
             </control>
-            
+
         </control>
         <include>Common-Info</include>
         <include>PVROptionsMenu</include>
