@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window type="dialog" id="3003">
+    <defaultcontrol always="true">3</defaultcontrol>
+    <allowoverlay>no</allowoverlay>
+    <onunload condition="substring(Window(3003).Property(SingleDialog),widget)">ReplaceWindow(startup)</onunload>
+    <onunload condition="!IsEmpty(Window(3003).Property(SingleDialog))">ClearProperty(SingleDialog,3003)</onunload>
+    <onunload condition="!IsEmpty(Window(3003).Property(CustomDialog))">ClearProperty(CustomDialog,3003)</onunload>
+    <controls>
+        <include condition="IsEmpty(Window.Property(SingleDialog)) + IsEmpty(Window.Property(CustomDialog)) + !stringcompare(Window(skinsettings).property(Dialog),$LOCALIZE[31140])">PanelDialogHome</include>
+        <include condition="IsEmpty(Window.Property(SingleDialog)) + IsEmpty(Window.Property(CustomDialog)) + stringcompare(Window(skinsettings).property(Dialog),$LOCALIZE[31140])">PanelDialogHomeWidgets</include>
+        <include condition="!IsEmpty(Window.Property(SingleDialog)) + IsEmpty(Window.Property(CustomDialog))">PanelDialogHomeSingle</include>
+    </controls>
+</window>

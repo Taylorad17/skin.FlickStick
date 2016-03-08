@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<includes>
+	<include name="skinshortcuts-mainmenu" />
+	<include />
+	<include name="skinshortcuts-submenu" />
+	<include name="skinshortcuts-group-home" />
+	<include name="skinshortcuts-group-alt-home" />
+	<include name="skinshortcuts-group-movies1" />
+	<include name="skinshortcuts-group-alt-movies1" />
+	<include name="skinshortcuts-group-movies2" />
+	<include name="skinshortcuts-group-alt-movies2" />
+	<include name="skinshortcuts-group-tvshows1" />
+	<include name="skinshortcuts-group-alt-tvshows1" />
+	<include name="skinshortcuts-group-tvshows2" />
+	<include name="skinshortcuts-group-alt-tvshows2" />
+	<include name="skinshortcuts-group-music1" />
+	<include name="skinshortcuts-group-alt-music1" />
+	<include name="skinshortcuts-group-music2" />
+	<include name="skinshortcuts-group-alt-music2" />
+	<include name="skinshortcuts-group-apps" />
+	<include name="skinshortcuts-group-alt-apps" />
+</includes>

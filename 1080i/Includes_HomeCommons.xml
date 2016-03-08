@@ -91,9 +91,6 @@
                 <onright>21</onright>
                 <texturefocus>buttons/favourites_fo.png</texturefocus>
                 <texturenofocus>buttons/favourites_nofo.png</texturenofocus>
-                <onclick>CancelAlarm(HomeTileMove,true)</onclick>
-                <onclick>CancelAlarm(HomeTileMoveTwo,true)</onclick>
-                <onclick>CancelAlarm(HomeTileMoveThree,true)</onclick>
                 <onclick>ActivateWindow(Favourites)</onclick>
                 <include>Animation_FavButton</include>
                 <include>homebuttonsanim3</include>
@@ -163,34 +160,10 @@
         <value>$LOCALIZE[31524]</value>
     </variable>
 
-    <variable name="SpotlightLabelVAR">
-        <value condition="stringcompare(Skin.String(HomeWidget.1.Type),script.randomandlastitems) + !IsEmpty(Window.Property(HomeWidget1.Name))">$INFO[Window.Property(HomeWidget1.Name)]</value>
-        <value condition="!IsEmpty(Skin.String(HomeWidget.1.TypeName))">$INFO[Skin.String(HomeWidget.1.TypeName)]</value>
-        <value>$LOCALIZE[31550]</value>
-    </variable>
-
-    <variable name="OngoingTVShowsLabelVAR">
-        <value condition="stringcompare(Skin.String(HomeWidget.2.Type),script.randomandlastitems) + !IsEmpty(Window.Property(HomeWidget2.Name))">$INFO[Window.Property(HomeWidget2.Name)]</value>
-        <value condition="!IsEmpty(Skin.String(HomeWidget.2.TypeName))">$INFO[Skin.String(HomeWidget.2.TypeName)]</value>
-        <value>$LOCALIZE[31551]</value>
-    </variable>
-
     <variable name="PicturesLabelVAR">
         <value condition="stringcompare(Skin.String(HomeWidget.6.Type),script.randomandlastitems) + !IsEmpty(Window.Property(HomeWidget6.Name))">$INFO[Window.Property(HomeWidget6.Name)]</value>
         <value condition="!IsEmpty(Skin.String(HomeWidget.6.TypeName))">$INFO[Skin.String(HomeWidget.6.TypeName)]</value>
         <value>$LOCALIZE[1]</value>
-    </variable>
-
-    <variable name="NewMoviesLabelVAR">
-        <value condition="stringcompare(Skin.String(HomeWidget.3.Type),script.randomandlastitems) + !IsEmpty(Window.Property(HomeWidget3.Name))">$INFO[Window.Property(HomeWidget3.Name)]</value>
-        <value condition="!IsEmpty(Skin.String(HomeWidget.3.TypeName))">$INFO[Skin.String(HomeWidget.3.TypeName)]</value>
-        <value>$LOCALIZE[31552]</value>
-    </variable>
-
-    <variable name="NewShowsLabelVAR">
-        <value condition="stringcompare(Skin.String(HomeWidget.4.Type),script.randomandlastitems) + !IsEmpty(Window.Property(HomeWidget4.Name))">$INFO[Window.Property(HomeWidget4.Name)]</value>
-        <value condition="!IsEmpty(Skin.String(HomeWidget.4.TypeName))">$INFO[Skin.String(HomeWidget.4.TypeName)]</value>
-        <value>$LOCALIZE[31553]</value>
     </variable>
 
     <variable name="CurrentAiringPVR">
