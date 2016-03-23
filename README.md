@@ -1,6 +1,6 @@
-##Xperience1080
+##FlickStick
 
-Xperience1080 is a Kodi 14/15/16 skin with two texture sets, classic and flat.
+FlickStick is a HTPC product developed with Kodi. 
 
 #### Features
 
@@ -15,10 +15,12 @@ Xperience1080 is a Kodi 14/15/16 skin with two texture sets, classic and flat.
 - [x] Multiple View Types for Video and Music
 - [x] Widgets with integrated Extended Info support (Upcoming Movies, In Theatres, etc.)
 - [x] Integration of multiple add-ons.
+- [x] Branded for FlickStick product
 
 #### Authors
 * Piers
 * xhaggi
+* Adam
 
 #### Credits
 - [x] `Black for his work on version 2.1, of which this is a continuation.
